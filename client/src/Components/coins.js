@@ -34,7 +34,6 @@ class Coins extends React.Component {
           isLoaded: true,
           changeReceived: jsonData,
         });
-        console.log(this.state.changeReceived);
       });
   };
 
