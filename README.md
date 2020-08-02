@@ -8,7 +8,7 @@ Hello. Thanks for dropping by. Below you'll find the documentation to run this a
 
 You can clone this repository via either HTTPS or SSH, depending on your preference:
 
-> HTTPS: `https://github.com/AIndoria/coinChangeApp.git`
+> HTTPS: `git clone https://github.com/AIndoria/coinChangeApp.git`
 
 > SSH: `git clone git@github.com:AIndoria/coinChangeApp.git`
 
