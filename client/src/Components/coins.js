@@ -64,7 +64,8 @@ class Coins extends React.Component {
               />
             </div>
             <div className="Landing__CoinInput--populatedCurrency">
-              <span>Change will be shown for: ${this.state.coinsSum}</span>
+              <div>Change will be shown for: </div>
+              <div className="liveValue">${this.state.coinsSum}</div>
             </div>
             <div className="Landing__CoinInput--submit">
               <input

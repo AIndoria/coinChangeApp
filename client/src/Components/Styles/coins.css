@@ -58,10 +58,19 @@
 .Landing__CoinInput--populatedCurrency {
   justify-content: center;
   display: flex;
+  flex-direction: row;
   flex: 2;
   padding: 2rem;
   font-size: 2rem;
   color: rgb(31, 31, 31);
+}
+
+.Landing__CoinInput--populatedCurrency div:nth-child(1) {
+  flex: 1;
+}
+
+.Landing__CoinInput--populatedCurrency div:nth-child(2) {
+  flex: 0.25;
 }
 
 .Landing__CoinInput--inputField input {
