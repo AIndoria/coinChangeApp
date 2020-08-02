@@ -38,4 +38,5 @@ That's it! The client-side of the application should be running on https://local
 - I will be adding unit tests to this later, for my own usage. I have not added any such at the moment.
 
 My dear friends were kind enough to provide some "Suggestions" on how to proceed. I got a good chuckle out of it. Hope you have too.
+
 ![enter image description here](https://i.imgur.com/kNJm7xV.png)
