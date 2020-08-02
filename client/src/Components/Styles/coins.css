@@ -200,22 +200,10 @@
 .value-light {
   background-color: rgb(120, 186, 227);
 }
-.Landing__CoinOutput--dollars {
-  flex: 1;
-}
-.Landing__CoinOutput--hdollars {
-  flex: 1;
-}
-.Landing__CoinOutput--quarters {
-  flex: 1;
-}
-.Landing__CoinOutput--dimes {
-  flex: 1;
-}
-.Landing__CoinOutput--nickles {
+
+.common-CO-display {
   flex: 1;
 }
 .Landing__CoinOutput--pennies {
-  flex: 1;
   border-bottom-right-radius: 1rem;
 }

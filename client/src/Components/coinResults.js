@@ -10,7 +10,7 @@ class coinResults extends React.Component {
             <div className="Landing__CoinOutput--dollars-label common-CO-labels">
               Silver-Dollar:
             </div>
-            <div className="Landing__CoinOutput--value">
+            <div className="Landing__CoinOutput--value common-CO-display">
               {this.props.dollars}
             </div>
           </div>
@@ -18,7 +18,7 @@ class coinResults extends React.Component {
             <div className="Landing__CoinOutput--hdollars-label common-CO-labels">
               Half-Dollar:
             </div>
-            <div className="Landing__CoinOutput--value">
+            <div className="Landing__CoinOutput--value common-CO-display">
               {this.props.hdollars}
             </div>
           </div>
@@ -26,7 +26,7 @@ class coinResults extends React.Component {
             <div className="Landing__CoinOutput--quarters-label common-CO-labels">
               Quarters:
             </div>
-            <div className="Landing__CoinOutput--value">
+            <div className="Landing__CoinOutput--value common-CO-display">
               {this.props.quarters}
             </div>
           </div>
@@ -34,13 +34,15 @@ class coinResults extends React.Component {
             <div className="Landing__CoinOutput--dimes-label common-CO-labels">
               Dimes:
             </div>
-            <div className="Landing__CoinOutput--value">{this.props.dimes}</div>
+            <div className="Landing__CoinOutput--value common-CO-display">
+              {this.props.dimes}
+            </div>
           </div>
           <div className="Landing__CoinOutput--nickles common-CO-values">
             <div className="Landing__CoinOutput--nickles-label common-CO-labels">
               Nickles:
             </div>
-            <div className="Landing__CoinOutput--value">
+            <div className="Landing__CoinOutput--value common-CO-display">
               {this.props.nickles}
             </div>
           </div>
@@ -48,7 +50,7 @@ class coinResults extends React.Component {
             <div className="Landing__CoinOutput--pennies-label common-CO-labels">
               Pennies:
             </div>
-            <div className="Landing__CoinOutput--value">
+            <div className="Landing__CoinOutput--value common-CO-display">
               {this.props.pennies}
             </div>
           </div>

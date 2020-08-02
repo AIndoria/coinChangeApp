@@ -58,6 +58,7 @@ class Coins extends React.Component {
               <input
                 type="text"
                 name="val"
+                title="Please enter a value in the format of x, xx, .xx, x.xx, x or xx.xx"
                 pattern="[0-9]*[.]?[0-9]{0,2}"
                 value={this.state.coinsSum}
                 onChange={this.handleValueChange}
