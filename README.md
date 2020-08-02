@@ -40,6 +40,8 @@ That's it! The client-side of the application should be running on https://local
 
 - The app is NOT responsive, at all. I will be making modifications later in the week to change that. For now, please use a desktop.
 
+- Iteration logic can certainly be improved. I went with whatever was convenient for me since I had other things to worry about at the time. I will come back to it later.
+
 My dear friends were kind enough to provide some "Suggestions" on how to proceed. I got a good chuckle out of it. Hope you have too.
 
 ![enter image description here](https://i.imgur.com/kNJm7xV.png)
