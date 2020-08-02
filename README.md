@@ -1,4 +1,4 @@
-![Photo of Coin Changer Application](https://i.imgur.com/xicnpUB.png)
+![Photo of Coin Changer Application](https://i.imgur.com/0fQqHgs.png)
 
 # COIN CHANGE COUNTER
 
