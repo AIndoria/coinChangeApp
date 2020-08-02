@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Dosis:wght@400;500;700&display=swap");
+
+.Landing {
+  height: 100%;
+  background: whitesmoke;
+  display: grid;
+  grid-template-rows: [page-start] 1fr [content-start title-start] 0.5fr [second-card-start] 1fr [title-end input-start] 4fr [input-end submit-start]1fr[submit-end results-start]0.5fr[results-end page-content-end]1fr[page-end];
+  grid-template-columns: [page-h-start] 1fr [content-h-start-left] 2.5fr [content-h-end-left content-h-start-right] 2.5fr [content-h-end-right] 1fr [page-h-end];
+}
+
+.Landing__Heading h2 {
+  margin: auto;
+}
+
+.Landing__CoinInput {
+  font-family: "DM Sans", sans-serif;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: white;
+  grid-row: title-start/results-end;
+  grid-column: content-h-start-left/content-h-end-left;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.Landing__Heading {
+  display: flex;
+  height: 100%;
+  flex: 1;
+}
+
+.Landing__CoinInput_form {
+  flex: 5;
+  justify-content: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.Landing__CoinInput--label {
+  padding: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.25rem;
+  flex: 1;
+}
+.Landing__CoinInput--inputField {
+  justify-content: center;
+
+  display: flex;
+  flex: 4;
+  padding: 0 2rem 2rem 2rem;
+}
+
+.Landing__CoinInput--populatedCurrency {
+  justify-content: center;
+  display: flex;
+  flex: 2;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.Landing__CoinInput--inputField input {
+  text-align: center;
+  font-size: 4rem;
+  width: 25rem;
+  border: none;
+  color: rgb(103, 176, 223);
+  background: rgb(243, 251, 255);
+}
+.Landing__CoinInput--submit {
+  justify-content: center;
+  display: flex;
+  flex: 2;
+}
+
+.Landing__CoinInput--submit input {
+  border: none;
+  background: none;
+  width: 100%;
+  color: white;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+
+  background: rgba(102, 177, 223, 1);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(102, 177, 223, 1) 0%,
+    rgba(53, 130, 206, 1) 100%
+  );
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, rgba(102, 177, 223, 1)),
+    color-stop(100%, rgba(53, 130, 206, 1))
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(102, 177, 223, 1) 0%,
+    rgba(53, 130, 206, 1) 100%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(102, 177, 223, 1) 0%,
+    rgba(53, 130, 206, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(102, 177, 223, 1) 0%,
+    rgba(53, 130, 206, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(102, 177, 223, 1) 0%,
+    rgba(53, 130, 206, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b1df', endColorstr='#3582ce', GradientType=1 );
+}
+
+.Landing__CoinOutput {
+  height: 100%;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  flex-direction: column;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  box-shadow: 5px 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  grid-row: second-card-start/submit-end;
+  grid-column: content-h-start-right/content-h-end-right;
+
+  background: rgba(53, 130, 206, 1);
+  background: -moz-linear-gradient(
+    45deg,
+    rgba(53, 130, 206, 1) 0%,
+    rgba(102, 177, 223, 1) 100%
+  );
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, rgba(53, 130, 206, 1)),
+    color-stop(100%, rgba(102, 177, 223, 1))
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(53, 130, 206, 1) 0%,
+    rgba(102, 177, 223, 1) 100%
+  );
+  background: -o-linear-gradient(
+    45deg,
+    rgba(53, 130, 206, 1) 0%,
+    rgba(102, 177, 223, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    45deg,
+    rgba(53, 130, 206, 1) 0%,
+    rgba(102, 177, 223, 1) 100%
+  );
+  background: linear-gradient(
+    45deg,
+    rgba(53, 130, 206, 1) 0%,
+    rgba(102, 177, 223, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3582ce', endColorstr='#66b1df', GradientType=1 );
+}
+
+.Landing__CoinOutput_values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  color: white;
+}
+
+.common-CO-values {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.common-CO-labels {
+  align-self: center;
+  letter-spacing: 1.5px;
+  font-size: 1.75rem;
+  color: white;
+  font-weight: 500;
+  flex: 1;
+}
+.Landing__CoinOutput--value {
+  flex: 1;
+  font-size: 2.75rem;
+  text-align: right;
+  padding-right: 2rem;
+  color: white;
+}
+
+.value-light {
+  background-color: rgb(120, 186, 227);
+}
+.Landing__CoinOutput--dollars {
+  flex: 1;
+}
+.Landing__CoinOutput--hdollars {
+  flex: 1;
+}
+.Landing__CoinOutput--quarters {
+  flex: 1;
+}
+.Landing__CoinOutput--dimes {
+  flex: 1;
+}
+.Landing__CoinOutput--nickles {
+  flex: 1;
+}
+.Landing__CoinOutput--pennies {
+  flex: 1;
+  border-bottom-right-radius: 1rem;
+}
