@@ -1,5 +1,6 @@
 import React from "react";
 import "./Styles/coins.css";
+import CoinResults from "./coinResults";
 
 class Coins extends React.Component {
   constructor(props) {
@@ -76,58 +77,14 @@ class Coins extends React.Component {
         </div>
 
         {isHidden ? null : (
-          <div className="Landing__CoinOutput" id="Output">
-            <div className="Landing__CoinOutput_values">
-              <div className="Landing__CoinOutput--dollars common-CO-values">
-                <div className="Landing__CoinOutput--dollars-label common-CO-labels">
-                  Silver-Dollar:
-                </div>
-                <div className="Landing__CoinOutput--value">
-                  {this.state.changeReceived.dollars}
-                </div>
-              </div>
-              <div className="Landing__CoinOutput--hdollars value-light common-CO-values">
-                <div className="Landing__CoinOutput--hdollars-label common-CO-labels">
-                  Half-Dollar:
-                </div>
-                <div className="Landing__CoinOutput--value">
-                  {this.state.changeReceived.halfdollars}
-                </div>
-              </div>
-              <div className="Landing__CoinOutput--quarters common-CO-values">
-                <div className="Landing__CoinOutput--quarters-label common-CO-labels">
-                  Quarters:
-                </div>
-                <div className="Landing__CoinOutput--value">
-                  {this.state.changeReceived.quarters}
-                </div>
-              </div>
-              <div className="Landing__CoinOutput--dimes value-light common-CO-values">
-                <div className="Landing__CoinOutput--dimes-label common-CO-labels">
-                  Dimes:
-                </div>
-                <div className="Landing__CoinOutput--value">
-                  {this.state.changeReceived.dimes}
-                </div>
-              </div>
-              <div className="Landing__CoinOutput--nickles common-CO-values">
-                <div className="Landing__CoinOutput--nickles-label common-CO-labels">
-                  Nickles:
-                </div>
-                <div className="Landing__CoinOutput--value">
-                  {this.state.changeReceived.nickles}
-                </div>
-              </div>
-              <div className="Landing__CoinOutput--pennies value-light common-CO-values">
-                <div className="Landing__CoinOutput--pennies-label common-CO-labels">
-                  Pennies:
-                </div>
-                <div className="Landing__CoinOutput--value">
-                  {this.state.changeReceived.pennies}
-                </div>
-              </div>
-            </div>
-          </div>
+          <CoinResults
+            dollars={this.state.changeReceived.dollars}
+            hdollars={this.state.changeReceived.halfdollars}
+            quarters={this.state.changeReceived.quarters}
+            dimes={this.state.changeReceived.dimes}
+            nickles={this.state.changeReceived.nickles}
+            pennies={this.state.changeReceived.pennies}
+          ></CoinResults>
         )}
       </div>
     );
