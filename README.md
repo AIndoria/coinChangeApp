@@ -1,6 +1,6 @@
 ![Photo of Coin Changer Application](https://i.imgur.com/xicnpUB.png)
 
-# COIN CHANGER
+# COIN CHANGE COUNTER
 
 Hello. Thanks for dropping by. Below you'll find the documentation to run this app, and a few other tidbits I thought to include. This application was created with React, and ExpressJS.
 
